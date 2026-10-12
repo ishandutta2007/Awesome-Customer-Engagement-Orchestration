@@ -64,55 +64,55 @@ The table below compiles category-defining commercial platforms for customer jou
 
 Explore the top self-hostable customer engagement orchestration platforms, notification infrastructures, and event engines, ordered descending by GitHub stargazers count:
 
-- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+- **[n8n](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
   *Fair-code workflow automation platform with 400+ native integrations.* Highly extensible visual canvas for orchestrating cross-channel messaging, multi-step webhook workflows, AI agent triggers, and event pipelines with complete data self-sovereignty.
 
-- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
+- **[PostHog](https://github.com/PostHog/posthog)** [![GitHub_Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)  
   *All-in-one open-source product OS.* Combines real-time event ingestion, user behavior funnels, cohorts, webhooks, and customer journey notification triggers to power developer-centric behavioral messaging.
 
-- **[Novu](https://github.com/novuhq/novu)** [![GitHub stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
+- **[Novu](https://github.com/novuhq/novu)** [![GitHub_Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
   *Open-source notification infrastructure and orchestration workflow engine.* Provides a centralized workflow editor to manage multi-channel delivery (email, SMS, push, in-app feed, chat), digests, time delays, and provider fallbacks with code-first workflows.
 
-- **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
+- **[Chatwoot](https://github.com/chatwoot/chatwoot)** [![GitHub_Stars](https://img.shields.io/github/stars/chatwoot/chatwoot?style=social&color=white)](https://github.com/chatwoot/chatwoot/stargazers)  
   *Open-source customer engagement and conversational relationship management platform.* Delivers real-time omnichannel customer communication across live chat, WhatsApp, SMS, email, and social channels with automated routing rules.
 
-- **[Mautic](https://github.com/mautic/mautic)** [![GitHub stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers)  
+- **[Mautic](https://github.com/mautic/mautic)** [![GitHub_Stars](https://img.shields.io/github/stars/mautic/mautic?style=social&color=white)](https://github.com/mautic/mautic/stargazers)  
   *The world's leading open-source marketing automation platform (GPL-3.0).* 100% community-owned and self-hostable with unlimited contacts. Features multi-channel campaigns (email, SMS, web notifications), visual campaign journey builder, behavioral lead scoring, and GDPR compliance.
 
-- **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
+- **[GrowthBook](https://github.com/growthbook/growthbook)** [![GitHub_Stars](https://img.shields.io/github/stars/growthbook/growthbook?style=social&color=white)](https://github.com/growthbook/growthbook/stargazers)  
   *Open-source feature flagging and customer experimentation platform.* Enables growth engineers to orchestrate personalized user experiences, rollout flags, and evaluate journey variants with Bayesian and Frequentist statistics.
 
-- **[Plunk](https://github.com/useplunk/plunk)** [![GitHub stars](https://img.shields.io/github/stars/useplunk/plunk?style=social&color=white)](https://github.com/useplunk/plunk/stargazers)  
+- **[Plunk](https://github.com/useplunk/plunk)** [![GitHub_Stars](https://img.shields.io/github/stars/useplunk/plunk?style=social&color=white)](https://github.com/useplunk/plunk/stargazers)  
   *Open-source email marketing and event-driven automation platform built on AWS SES.* Provides transactional and automated marketing campaigns triggered by custom application events with a modern API and management UI.
 
-- **[Jitsu](https://github.com/jitsucom/jitsu)** [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
+- **[Jitsu](https://github.com/jitsucom/jitsu)** [![GitHub_Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)  
   *Open-source customer data platform and event collection pipeline (MIT).* High-performance alternative to Segment for ingesting web/mobile events, transforming payloads in real time, and synchronizing customer traits into messaging destination endpoints.
 
-- **[RudderStack Server](https://github.com/rudderlabs/rudder-server)** [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)  
+- **[RudderStack Server](https://github.com/rudderlabs/rudder-server)** [![GitHub_Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)  
   *Enterprise-ready open-source customer data pipeline (AGPL-3.0).* Tracks customer events across apps and synchronizes behavioral data into customer engagement platforms, warehouses, and downstream marketing tools.
 
-- **[Dittofeed](https://github.com/dittofeed/dittofeed)** [![GitHub stars](https://img.shields.io/github/stars/dittofeed/dittofeed?style=social&color=white)](https://github.com/dittofeed/dittofeed/stargazers)  
+- **[Dittofeed](https://github.com/dittofeed/dittofeed)** [![GitHub_Stars](https://img.shields.io/github/stars/dittofeed/dittofeed?style=social&color=white)](https://github.com/dittofeed/dittofeed/stargazers)  
   *Developer-first open-source customer engagement and journey orchestration platform (MIT).* Built as an open alternative to Customer.io, Klaviyo, and Braze. Features a visual drag-and-drop journey builder, real-time segmentation, git-integrated templates, and native multi-channel dispatch (Email, SMS, Push, WhatsApp, Slack).
 
-- **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** [![GitHub stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker?style=social&color=white)](https://github.com/laudspeaker/laudspeaker/stargazers)  
+- **[Laudspeaker](https://github.com/laudspeaker/laudspeaker)** [![GitHub_Stars](https://img.shields.io/github/stars/laudspeaker/laudspeaker?style=social&color=white)](https://github.com/laudspeaker/laudspeaker/stargazers)  
   *Open-source customer journey automation engine (AGPL-3.0).* Self-hostable alternative to Braze and Iterable featuring a no-code canvas for event-triggered messaging (email, SMS, Firebase push), time delay nodes, user cohorts, and native PostHog analytics sync.
 
-- **[Metarank](https://github.com/metarank/metarank)** [![GitHub stars](https://img.shields.io/github/stars/metarank/metarank?style=social&color=white)](https://github.com/metarank/metarank/stargazers)  
+- **[Metarank](https://github.com/metarank/metarank)** [![GitHub_Stars](https://img.shields.io/github/stars/metarank/metarank?style=social&color=white)](https://github.com/metarank/metarank/stargazers)  
   *Open-source Learn-to-Rank personalization service (Apache-2.0).* Real-time ranking engine that orchestrates personalized content, dynamic feeds, and recommendations based on explicit and implicit behavioral telemetry.
 
-- **[Apache Unomi](https://github.com/apache/unomi)** [![GitHub stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)  
+- **[Apache Unomi](https://github.com/apache/unomi)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)  
   *Java-based open-source customer data platform and rules engine (Apache-2.0).* Reference implementation of the OASIS Customer Data Platform specification for real-time customer profiling, event ingestion, and segment evaluation.
 
-- **[Fusion](https://github.com/fusion-hq/fusion)** [![GitHub stars](https://img.shields.io/github/stars/fusion-hq/fusion?style=social&color=white)](https://github.com/fusion-hq/fusion/stargazers)  
+- **[Fusion](https://github.com/fusion-hq/fusion)** [![GitHub_Stars](https://img.shields.io/github/stars/fusion-hq/fusion?style=social&color=white)](https://github.com/fusion-hq/fusion/stargazers)  
   *Open-source product analytics and user engagement tool.* Combines lightweight behavioral analytics with push notification triggers, live chat, micro-surveys, and real-time user engagement capabilities for modern startups.
 
-- **[OpenClix](https://github.com/OpenClix/openclix)** [![GitHub stars](https://img.shields.io/github/stars/OpenClix/openclix?style=social&color=white)](https://github.com/OpenClix/openclix/stargazers)  
+- **[OpenClix](https://github.com/OpenClix/openclix)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenClix/openclix?style=social&color=white)](https://github.com/OpenClix/openclix/stargazers)  
   *Open-source mobile app retention and client-side engagement automation (MIT).* Config-driven engagement rules designed with on-device evaluation logic across TypeScript, Next.js, Dart, Kotlin, and Swift.
 
-- **[Helio](https://github.com/achref-soua/helio)** [![GitHub stars](https://img.shields.io/github/stars/achref-soua/helio?style=social&color=white)](https://github.com/achref-soua/helio/stargazers)  
+- **[Helio](https://github.com/achref-soua/helio)** [![GitHub_Stars](https://img.shields.io/github/stars/achref-soua/helio?style=social&color=white)](https://github.com/achref-soua/helio/stargazers)  
   *AI-native open-source customer growth platform (AGPL-3.0).* Powered by the Temporal workflow engine; delivers sub-100ms event-driven cross-channel journeys, natural-language segmentation, brand-voice AI copywriting, and MCP integration for AI agents.
 
-- **[MessageBirds](https://github.com/Mullassery/MessageBirds)** [![GitHub stars](https://img.shields.io/github/stars/Mullassery/MessageBirds?style=social&color=white)](https://github.com/Mullassery/MessageBirds/stargazers)  
+- **[MessageBirds](https://github.com/Mullassery/MessageBirds)** [![GitHub_Stars](https://img.shields.io/github/stars/Mullassery/MessageBirds?style=social&color=white)](https://github.com/Mullassery/MessageBirds/stargazers)  
   *Event-driven customer data and engagement platform built in Rust and TypeScript.* Features identity resolution, real-time audiences, PyReverseETL activation, edge ingestion gateways, and durable journey workflows.
 
 ---
@@ -163,7 +163,7 @@ Contributions are welcome! Help keep this curated list accurate and up to date:
 3. Ensure table criteria are respected:
    - Specific starting tier pricing and specific free tier/trial limits.
    - Proper valuation/market cap ordering.
-   - Social star badges linking to the repository stargazers page.
+   - Social Stars_Badges linking to the repository stargazers page.
 4. Submit a Pull Request with a clear description of changes.
 
 ---
