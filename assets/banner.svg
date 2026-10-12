@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(99, 102, 241, 0.25)" />
+      <stop offset="100%" stop-color="rgba(168, 85, 247, 0.15)" />
+    </linearGradient>
+
+    <!-- Subtle Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Flow Line Gradients -->
+    <linearGradient id="lineGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.2" />
+    </linearGradient>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+        letter-spacing: -0.5px;
+      }
+      .subtitle-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        fill: #94a3b8;
+        letter-spacing: 0.2px;
+      }
+      .badge-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        fill: #e0e7ff;
+      }
+      .node-circle {
+        fill: #6366f1;
+        opacity: 0.8;
+      }
+
+      /* Animated pulse and flow effects */
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); opacity: 0.6; }
+        50% { transform: scale(1.3); opacity: 1; }
+      }
+      @keyframes flowDash {
+        0% { stroke-dashoffset: 200; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes floatPill {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+
+      .animated-dash {
+        stroke-dasharray: 8 6;
+        animation: flowDash 15s linear infinite;
+      }
+      .pill-float-1 {
+        animation: floatPill 6s ease-in-out infinite;
+      }
+      .pill-float-2 {
+        animation: floatPill 7s ease-in-out 1s infinite;
+      }
+      .pill-float-3 {
+        animation: floatPill 5.5s ease-in-out 2s infinite;
+      }
+      .pill-float-4 {
+        animation: floatPill 6.5s ease-in-out 1.5s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+  <rect width="1198" height="358" x="1" y="1" rx="15" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+
+  <!-- Animated Orchestration Journey Lines (Background Layer) -->
+  <g opacity="0.45">
+    <path class="animated-dash" d="M -50 80 Q 250 40 500 110 T 1000 60 T 1250 120" fill="none" stroke="url(#lineGrad1)" stroke-width="2" />
+    <path class="animated-dash" d="M -50 280 Q 300 320 600 250 T 1100 290 T 1250 240" fill="none" stroke="url(#lineGrad1)" stroke-width="2" style="animation-direction: reverse;" />
+    
+    <!-- Flow connection nodes -->
+    <circle cx="280" cy="55" r="4" class="node-circle" />
+    <circle cx="720" cy="85" r="5" class="node-circle" />
+    <circle cx="1020" cy="65" r="4" class="node-circle" />
+    <circle cx="180" cy="295" r="4" class="node-circle" />
+    <circle cx="680" cy="265" r="5" class="node-circle" />
+    <circle cx="950" cy="280" r="4" class="node-circle" />
+  </g>
+
+  <!-- Floating Dynamic Channel Pills (Non-Obstructing Positioned on Edges) -->
+  <!-- Top Left Pill: Email & Push -->
+  <g class="pill-float-1" transform="translate(60, 45)">
+    <rect width="130" height="30" rx="15" fill="url(#pillGrad)" stroke="rgba(129, 140, 248, 0.4)" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#38bdf8" />
+    <text x="30" y="20" class="badge-text">⚡ Real-Time Events</text>
+  </g>
+
+  <!-- Top Right Pill: Webhook & Temporal -->
+  <g class="pill-float-2" transform="translate(980, 45)">
+    <rect width="150" height="30" rx="15" fill="url(#pillGrad)" stroke="rgba(192, 132, 252, 0.4)" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#c084fc" />
+    <text x="30" y="20" class="badge-text">🔀 Journey Workflows</text>
+  </g>
+
+  <!-- Bottom Left Pill: SMS & WhatsApp -->
+  <g class="pill-float-3" transform="translate(60, 285)">
+    <rect width="165" height="30" rx="15" fill="url(#pillGrad)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#34d399" />
+    <text x="30" y="20" class="badge-text">📱 Omnichannel Delivery</text>
+  </g>
+
+  <!-- Bottom Right Pill: AI Segmentation -->
+  <g class="pill-float-4" transform="translate(970, 285)">
+    <rect width="160" height="30" rx="15" fill="url(#pillGrad)" stroke="rgba(244, 114, 182, 0.4)" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#f472b6" />
+    <text x="30" y="20" class="badge-text">🎯 Smart Segmentation</text>
+  </g>
+
+  <!-- Central Foreground Content (Title, Subtitle & Key Pillars) -->
+  <g transform="translate(600, 135)" text-anchor="middle">
+    <!-- Main Headline with Gradient Fill -->
+    <text y="0" class="title-text" fill="url(#primaryGrad)" filter="url(#glow)">Customer Engagement Orchestration</text>
+    
+    <!-- Subtitle -->
+    <text y="42" class="subtitle-text">Curated Ecosystem Guide to Cross-Channel Journeys, CEPs &amp; Open-Source Engines</text>
+  </g>
+
+  <!-- Channel Flow Indicators (Center Bottom Foreground) -->
+  <g transform="translate(600, 225)" text-anchor="middle">
+    <rect x="-240" y="-16" width="480" height="32" rx="16" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1" />
+    <text y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#cbd5e1" letter-spacing="1.2">
+      EMAIL  •  SMS  •  MOBILE PUSH  •  IN-APP  •  WHATSAPP  •  WEBHOOKS
+    </text>
+  </g>
+</svg>

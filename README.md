@@ -1,27 +1,39 @@
-# Awesome Customer Engagement Orchestration [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Customer Engagement Orchestration 🚀
 
-> A curated directory and ecosystem guide of leading **Customer Engagement Orchestration (CEO)**, **Customer Journey Orchestration (CJO)**, and **Behavioral Messaging** solutions — spanning enterprise SaaS platforms and self-hosted open-source software.
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Customer Engagement Orchestration Banner" width="100%" />
+</p>
 
-[![Track Awesome List](https://img.shields.io/badge/Awesome-Customer--Engagement-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Customer-Engagement-Orchestration)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Engagement-Orchestration"><img src="https://img.shields.io/badge/Awesome-Customer--Engagement-brightgreen.svg?style=flat-square" alt="Track Awesome List" /></a>
+  <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishaddutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Cross-Channel Journeys (Email, SMS, Mobile Push, Web Push, In-App, WhatsApp), Real-Time Segmentation, Event-Triggered Automation, and Behavioral Lifecycle Marketing.*
+> 🌟 A curated directory and ecosystem guide of leading **Customer Engagement Orchestration (CEO)**, **Customer Journey Orchestration (CJO)**, and **Behavioral Messaging** solutions — spanning enterprise SaaS platforms and self-hosted open-source software.
+
+*Focused on Cross-Channel Journeys (Email ✉️, SMS 📱, Mobile Push 🔔, Web Push 🌐, In-App 💬, WhatsApp 💬), Real-Time Segmentation 🎯, Event-Triggered Automation ⚡, and Behavioral Lifecycle Marketing.*
 
 ---
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS / Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [Frameworks for Building Custom Stacks](#frameworks-for-building-custom-stacks)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🏗️ Frameworks for Building Custom Stacks](#️-frameworks-for-building-custom-stacks)
+- [📈 Star History](#-star-history)
+- [💖 Support](#-support)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#️-disclaimer)
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global **Customer Engagement Solutions & Customer Journey Orchestration (CJO)** market is valued at approximately **$24B–$31B** (with the dedicated CJO segment tracking around **$13B**), expanding at a compound annual growth rate (CAGR) of **12% to 24%** through 2030+. 
 
@@ -29,7 +41,7 @@ The market is **moderately fragmented**: mega-cap enterprise incumbents (Salesfo
 
 ---
 
-## SaaS/Hosted Platforms
+## ☁️ SaaS / Hosted Platforms
 
 The table below compiles category-defining commercial platforms for customer journey orchestration and engagement, ranked descending by company scale (market capitalization or latest recorded valuation / revenue).
 
@@ -48,7 +60,7 @@ The table below compiles category-defining commercial platforms for customer jou
 
 ---
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Explore the top self-hostable customer engagement orchestration platforms, notification infrastructures, and event engines, ordered descending by GitHub stargazers count:
 
@@ -88,7 +100,7 @@ Explore the top self-hostable customer engagement orchestration platforms, notif
 - **[Metarank](https://github.com/metarank/metarank)** [![GitHub stars](https://img.shields.io/github/stars/metarank/metarank?style=social&color=white)](https://github.com/metarank/metarank/stargazers)  
   *Open-source Learn-to-Rank personalization service (Apache-2.0).* Real-time ranking engine that orchestrates personalized content, dynamic feeds, and recommendations based on explicit and implicit behavioral telemetry.
 
-- **[Apache Unomi](https://github.com/apache/unomi)** [![GitHub stars](https://img.shields.io/github/stars/apache/unomi)](https://github.com/apache/unomi/stargazers)  
+- **[Apache Unomi](https://github.com/apache/unomi)** [![GitHub stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)  
   *Java-based open-source customer data platform and rules engine (Apache-2.0).* Reference implementation of the OASIS Customer Data Platform specification for real-time customer profiling, event ingestion, and segment evaluation.
 
 - **[Fusion](https://github.com/fusion-hq/fusion)** [![GitHub stars](https://img.shields.io/github/stars/fusion-hq/fusion?style=social&color=white)](https://github.com/fusion-hq/fusion/stargazers)  
@@ -105,7 +117,7 @@ Explore the top self-hostable customer engagement orchestration platforms, notif
 
 ---
 
-## Frameworks for Building Custom Stacks
+## 🏗️ Frameworks for Building Custom Stacks
 
 For organizations looking to eliminate vendor lock-in and construct their own self-hosted, sovereign customer engagement infrastructure:
 
@@ -124,7 +136,25 @@ flowchart LR
 
 ---
 
-## How to Contribute
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Customer-Engagement-Orchestration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Customer-Engagement-Orchestration&type=date&legend=top-left)
+
+---
+
+## 💖 Support
+
+Thank you for visiting and supporting the Customer Engagement Orchestration ecosystem! 🙏
+
+If you find this repository valuable:
+- ⭐ **Star** this repository to help others discover it!
+- 🍴 **Fork** and contribute new tools, open-source projects, and updates.
+- 📢 **Share** it with your engineering, marketing, and growth peers.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance and curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 🤝 How to Contribute
 
 Contributions are welcome! Help keep this curated list accurate and up to date:
 
@@ -138,7 +168,7 @@ Contributions are welcome! Help keep this curated list accurate and up to date:
 
 ---
 
-## Disclaimer
+## ⚖️ Disclaimer
 
 - This is an independent, community-curated list and does not constitute an endorsement.
 - All trademarks, logos, and company brand names are property of their respective owners.
